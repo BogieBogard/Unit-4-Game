@@ -17,8 +17,6 @@ var userTP = 0;
 
 document.getElementById("userTotalPoints").innerHTML = ("Your Total Points: " + userTP);
 
-// Total variable from the user's input using the crytals
-
 // Generate the four random numbers for each crystal
 var crystal1Value = Math.floor(Math.random() * 10 + 1);
 var crystal2Value = Math.floor(Math.random() * 10 + 1);
